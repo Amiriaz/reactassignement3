@@ -8,13 +8,12 @@ body {
 }
 
 .app {
-  background-color: #cda851;
+  background-color: cyan;
   width: 600px;
   min-height: 350px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: space-evenly;
 }
@@ -49,7 +48,7 @@ body {
 
 .question-text {
   margin-bottom: 15px;
-  background-color: #785b19;
+  background-color: indianred;
   border-radius: 10px;
   min-height: 3rem;
   display: flex;
@@ -69,7 +68,7 @@ button {
   width: 100%;
   font-size: 16px;
   color: #ffffff;
-  background-color: #cda851;
+  background-color: blue;
   border-radius: 15px;
   display: flex;
   padding: 5px;
@@ -100,10 +99,13 @@ button svg {
   margin-top: 15px;
 }
 .actions button {
-  background-color: #cda851;
+  background-color: blue;
   justify-content: center;
 }
 .actions button:hover {
   background-color: #785b19;
   color: white;
+}
+.text1{
+  color: black;
 }

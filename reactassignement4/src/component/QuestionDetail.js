@@ -52,7 +52,7 @@ export default function SMQuiz(){
             <div className="question-section">
             <h2 className="question-count">ARK Quiz</h2>
             <h5 className="question" > <span>Question {indexNumber+1} of {question.length}</span></h5>
-            <h5 className=""> 10 Marks {marks}</h5>
+            <h5 className="text1"> 10 Marks {marks}</h5>
             <h5 className="question-text">{question[indexNumber].Question}</h5>
 
             <div className="answer-section"> 
